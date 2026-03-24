@@ -12,8 +12,11 @@ This traffic controller is made up of 5 states
 # Hardware
 ------------------------------------------------------
 Board           |                                FPGA
+
 ------------------------------------------------------
+
 Nexys A7-100T       Xilinx Artix-7 (xc7a100tcsg324-1)
+
 ------------------------------------------------------
 
 # RTL Source Files
