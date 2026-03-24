@@ -25,6 +25,7 @@ fsm_traffic.sv : 5-State Moore FSM (Core Controlling Logic)
 sync_debounce.sv : Two-stage synchronizer + a 50ms debouncing 
 
 top.sv : Top-level: wires debouncer, FSM, edge detector, and PWM RGB driver
+
 ------------------------------------------------------
 
 # Simulation 
