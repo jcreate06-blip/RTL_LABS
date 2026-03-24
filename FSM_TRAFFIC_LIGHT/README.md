@@ -39,6 +39,6 @@ LED   | Represents         | Green     | Yellow     | Red
 
 LED16 | Car Traffic Light  | car_green | car_yellow | car_red
 
-LED17 | Pedestrian Signal  | ped_walk  |            | ped_dont
+LED17 | Pedestrian Signal  | ped_walk  |____________| ped_dont
 
 
