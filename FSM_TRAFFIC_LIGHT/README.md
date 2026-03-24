@@ -43,6 +43,10 @@ LED16 | Car Traffic Light  | car_green | car_yellow | car_red
 LED17 | Pedestrian Signal  | ped_walk  |____________| ped_dont
 
 # Running to the Board
-1. Add the constraint file [constraints.xdc] to your vivado project
+1. Add the constraint file [constraints.xdc] to your vivado project.
+2. Set [top.sv] as the synthesis top module.
+3. Run synthesis -> Implementation -> Generate Bitstream.
+4. Open Hardware Manager, connect the Nexyz A7, and program the device.
+5. Press CPU_RESETN to reset, and press BTNC to request the walk cycle.
 
 
