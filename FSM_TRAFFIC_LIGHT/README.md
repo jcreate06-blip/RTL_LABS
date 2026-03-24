@@ -42,4 +42,7 @@ LED16 | Car Traffic Light  | car_green | car_yellow | car_red
 
 LED17 | Pedestrian Signal  | ped_walk  |____________| ped_dont
 
+# Running to the Board
+1. Add the constraint file [constraints.xdc] to your vivado project
+
 
