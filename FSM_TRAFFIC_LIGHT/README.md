@@ -12,11 +12,8 @@ This traffic controller is made up of 5 states
 # Hardware
 ------------------------------------------------------
 Board           |                                FPGA
-
 ------------------------------------------------------
-
 Nexys A7-100T       Xilinx Artix-7 (xc7a100tcsg324-1)
-
 ------------------------------------------------------
 
 # RTL Source Files
@@ -28,7 +25,6 @@ fsm_traffic.sv : 5-State Moore FSM (Core Controlling Logic)
 sync_debounce.sv : Two-stage synchronizer + a 50ms debouncing 
 
 top.sv : Top-level: wires debouncer, FSM, edge detector, and PWM RGB driver
-
 ------------------------------------------------------
 
 # Simulation 
@@ -38,6 +34,11 @@ Files | Description
 constraints.xdc : Pin assignment for the Nexys A7-100T
 ------------------------------------------------------
 
+# LED Mapping 
+LED    Represents    Green    Yellow    Red
 
+LED16  Car Traffic Light  car_green  car_yellow  car_red
+
+LED17  Pedestrian Signal  ped_walk              ped_dont
 
 
